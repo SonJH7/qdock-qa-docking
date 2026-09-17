@@ -1,0 +1,14 @@
+QDock Exact-One FAM reproducibility package
+
+This package derives from QDock and retains the upstream MIT License and
+copyright notice. The original QDock work is described at:
+
+  https://doi.org/10.1021/acs.jctc.3c00943
+
+The QPU execution, Bayesian-optimization orchestration, experiment-specific
+evaluation, and exact-one formulation changes in this release were prepared for
+the accompanying QST manuscript by Jeong-Hun Son, Seon-Geun Jeong, and Won-Joo
+Hwang.
+
+Third-party programs and molecular-structure inputs are governed by their own
+licenses and terms. They are not relicensed by this notice.

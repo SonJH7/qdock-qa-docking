@@ -1,0 +1,5 @@
+method,ligand,runs,mRMSD_mean,mRMSD_min,quality,validity,tts_99_quality_sec,runtime_mean_sec,shape_diff,n_matches,source_json
+Gurobi (opt),3nq9,1,3.629,3.629,0.0,1.0,,0.49,4.858161402020434e-15,8,benchmarks/classic/gurobi/3nq9_gurobi.json
+Gurobi (opt),4jsz,1,2.595,2.595,0.0,1.0,,0.485,9.74301094434339e-15,9,benchmarks/classic/gurobi/4jsz_gurobi.json
+CPLEX (opt),3nq9,1,5.218,5.218,0.0,1.0,,0.222,6.8262015495642704e-15,8,benchmarks/classic/cplex/3nq9_cplex.json
+CPLEX (opt),4jsz,1,2.494,2.494,0.0,1.0,,0.119,7.179060695831972e-15,9,benchmarks/classic/cplex/4jsz_cplex.json

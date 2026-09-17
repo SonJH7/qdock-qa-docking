@@ -1,0 +1,25 @@
+{
+  "qubo_path": "./qa_sweeps/1.penalty_test/_cases/3nq9_Kdist1.5_Kmono18.0/QUBOs/3nq9_ligand.npy",
+  "n_vars": 120,
+  "n_terms": 4648,
+  "time_limit": 60.0,
+  "mip_gap": 0.01,
+  "threads": 8,
+  "status": 2,
+  "status_str": 2,
+  "runtime_sec": 0.4898519515991211,
+  "obj_val": -4.0,
+  "obj_bound": -4.0,
+  "best_gap": 0.0,
+  "energy_from_qubo": -4.0,
+  "solution_ones": [
+    "0_3_-0.50000",
+    "1_4_-0.50000",
+    "2_4_-0.50000",
+    "5_3_-0.50000",
+    "6_11_-0.50000",
+    "7_9_-0.50000",
+    "8_9_-0.50000",
+    "9_8_-0.50000"
+  ]
+}

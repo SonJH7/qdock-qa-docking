@@ -1,0 +1,22 @@
+{
+  "qubo_path": "./qa_sweeps/1.penalty_test/_cases/3nq9_Kdist1.5_Kmono18.0/QUBOs/3nq9_ligand.npy",
+  "n_vars": 120,
+  "n_terms": 4648,
+  "time_limit": 60.0,
+  "mip_gap": 0.01,
+  "threads": 8,
+  "status": "JobSolveStatus.OPTIMAL_SOLUTION",
+  "runtime_sec": 0.22240996360778809,
+  "obj_val": -4.0,
+  "energy_from_qubo": -4.0,
+  "solution_ones": [
+    "0_9_-0.50000",
+    "1_9_-0.50000",
+    "2_8_-0.50000",
+    "5_11_-0.50000",
+    "6_3_-0.50000",
+    "7_3_-0.50000",
+    "8_1_-0.50000",
+    "9_4_-0.50000"
+  ]
+}

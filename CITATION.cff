@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  Cite both this versioned software release and the associated article.
+title: "QDock Exact-One FAM: QPU Sampling and Online Bayesian Optimization"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Son
+    given-names: Jeong-Hun
+  - family-names: Jeong
+    given-names: Seon-Geun
+  - family-names: Hwang
+    given-names: Won-Joo
+    email: wjhwang@pusan.ac.kr
+license: MIT
+preferred-citation:
+  type: article
+  title: "Quantum Annealing-Based Molecular Docking: Hardware-Aware Parameter Optimization Framework"
+  authors:
+    - family-names: Son
+      given-names: Jeong-Hun
+    - family-names: Jeong
+      given-names: Seon-Geun
+    - family-names: Hwang
+      given-names: Won-Joo

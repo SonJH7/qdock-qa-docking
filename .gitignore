@@ -1,0 +1,94 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+dwave.conf
+**/dwave.conf
+*.pem
+*.key
+*token*
+
+# Molecular input patterns; curated study inputs are included below
+data/*.pdb
+data/*.pdbqt
+data/*.mol2
+!data/README.md
+!data/SHA256SUMS
+
+# Generated docking and QPU artifacts
+results/*
+outputs/
+qa_sweeps/
+QUBOs/
+Ligands/
+Box_Rawligand/
+pocs/
+Matches/
+Poses/
+work/
+samples/
+embeddings/
+*.npy
+*.npz
+*.log
+
+# Temporary and platform files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Curated manuscript inputs and experimental evidence are intentionally
+# versioned even when their directory names match generated-artifact rules.
+!JeongHun/
+!JeongHun/**
+!data/
+!data/**
+!penalty_result/
+!penalty_result/**
+!penalty_sweep_qpu_v113/
+!penalty_sweep_qpu_v113/**
+!BO_Online_prereg_20260804/
+!BO_Online_prereg_20260804/**
+!BO_Online_v113_b100_q3_n20_x0.1_r5/
+!BO_Online_v113_b100_q3_n20_x0.1_r5/**
+!BO_Online_v113_b100_q4_n20_x0.1_r10/
+!BO_Online_v113_b100_q4_n20_x0.1_r10/**
+!chain_strength_sweep_qpu/
+!chain_strength_sweep_qpu/**
+!chain_strength_sweep_qpu_fixedemb_v113_opt1_r1to10_fullcs_chainbreak_true/
+!chain_strength_sweep_qpu_fixedemb_v113_opt1_r1to10_fullcs_chainbreak_true/**
+!annealing_time_sweep_qpu_fixedemb_v113_opt1_r1to10/
+!annealing_time_sweep_qpu_fixedemb_v113_opt1_r1to10/**
+!annealing_time_sweep_qpu_fixedemb_v113_opt1_3nq9_cs1p0_upto800_r1to10/
+!annealing_time_sweep_qpu_fixedemb_v113_opt1_3nq9_cs1p0_upto800_r1to10/**
+!annealing_time_sweep_qpu_fixedemb_v113_opt1_at800_r1to10/
+!annealing_time_sweep_qpu_fixedemb_v113_opt1_at800_r1to10/**
+!at/
+!at/**
+!as_jjin/
+!as_jjin/**
+!qpu_opt_final_default_as_at800_cs1p0_0p75_r1to10/
+!qpu_opt_final_default_as_at800_cs1p0_0p75_r1to10/**
+!benchmarks/
+!benchmarks/**
+!vina_3nq9_run/
+!vina_3nq9_run/**
+!vina_4jsz_run/
+!vina_4jsz_run/**
+!image/
+!image/**

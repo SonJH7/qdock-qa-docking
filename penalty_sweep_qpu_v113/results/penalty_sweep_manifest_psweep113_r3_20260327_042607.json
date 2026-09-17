@@ -1,0 +1,23 @@
+{
+  "run_tag": "psweep113_r3_20260327_042607",
+  "solver": "Advantage2_system1.13;graph_id=01e1ea5685",
+  "num_reads": 1000,
+  "work_root": "./qa_sweeps/1.penalty_test/_cases",
+  "sample_root": "./penalty_sweep_qpu_v113/samples",
+  "case_count_requested": 800,
+  "case_count_to_run": 800,
+  "case_count_already_completed": 0,
+  "case_count_collected": 800,
+  "missing_case_output_dirs": 0,
+  "missing_case_output_examples": [],
+  "outputs": {
+    "sampler_config": "./penalty_sweep_qpu_v113/configs/sampler_psweep113_r3_20260327_042607.json",
+    "cases_list": "./penalty_sweep_qpu_v113/configs/cases_psweep113_r3_20260327_042607.txt",
+    "run_cases_list": "./penalty_sweep_qpu_v113/configs/cases_to_run_psweep113_r3_20260327_042607.txt",
+    "case_csv": "./penalty_sweep_qpu_v113/results/penalty_sweep_case_metrics_psweep113_r3_20260327_042607.csv",
+    "ligand_csv": "./penalty_sweep_qpu_v113/results/penalty_sweep_ligand_summary_psweep113_r3_20260327_042607.csv",
+    "balanced_csv": "./penalty_sweep_qpu_v113/results/penalty_sweep_balanced_metrics_psweep113_r3_20260327_042607.csv",
+    "report_md": "./penalty_sweep_qpu_v113/report/penalty_sweep_report_psweep113_r3_20260327_042607.md",
+    "figures_dir": "./penalty_sweep_qpu_v113/figures"
+  }
+}

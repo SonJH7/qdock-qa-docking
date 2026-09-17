@@ -1,0 +1,6 @@
+ligand,metric,bo_n,random_n,bo_mean,bo_median,random_mean,random_median,gap_mean,mannwhitney_p_two_sided,cliffs_delta,cliffs_ci95,meandiff_ci95,holm_p
+3nq9,final_best,5,5,0.7404,0.8990,0.5046,0.5490,0.2358,0.2101,0.520,"[-0.28,1.00]","[-0.041,0.509]",0.4202
+4jsz,final_best,5,5,0.8206,0.8210,0.5682,0.5710,0.2524,0.0367,0.840,"[0.36,1.00]","[0.095,0.400]",0.1469
+3nq9,hit_step_censored100,5,5,medhit=11,,medhit=31,,,0.1161,-0.640,"[-1.00,0.08]",,0.3482
+4jsz,hit_step_censored100,5,5,medhit=15,,medhit=52,,,0.2948,-0.440,"[-1.00,0.36]",,0.4202
+stratified,final_best_van_elteren,10,10,z=+2.51,,,,,0.0120,,,,

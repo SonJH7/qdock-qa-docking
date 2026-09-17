@@ -1,0 +1,28 @@
+name: release-checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structural-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: Python syntax check
+        run: python3 -m compileall -q QDock *.py BO_Online/scripts
+      - name: JSON syntax check
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+
+          for path in Path(".").rglob("*.json"):
+              with path.open(encoding="utf-8") as stream:
+                  json.load(stream)
+          PY
+      - name: Release integrity check
+        run: sha256sum -c DATA_SHA256SUMS

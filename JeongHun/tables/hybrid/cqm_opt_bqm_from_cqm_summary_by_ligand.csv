@@ -1,0 +1,3 @@
+ligand,runs,k_dist,k_mono,edge_cutoff,lagrange_multiplier,n_samples,unique_samples,unique_sample_ratio,avg_selected_vars,energy_min,energy_avg,n_poses,mRMSD,avg_RMSD,success_rate,validity_rate,strict_success_rate,t_run_sec,tts_99_success_sec,tts_99_strict_sec,eval_elapsed_sec,qpu_access_sec,qpu_sampling_sec,run_time_sec,charge_time_sec,physical_qubits,max_chain_length,bqm_num_variables,bqm_num_interactions
+3nq9,25,1.5,18.0,1.87,28.8,1.0,1.0,1.0,8.0,-4.0,-4.0,1.0,4.817812,4.817812,0.0,1.0,0.0,1.92573916,,,0.1034,1.92573916,,29.99220028,29.99217896,,,130.0,5154.0
+4jsz,25,1.5,18.0,1.87,28.8,1.0,1.0,1.0,10.0,-4.97,-4.97,1.0,2.371624,2.371624,0.0,1.0,0.0,1.87612732,,,0.11384,1.87612732,,29.99332156,29.99330176,,,144.0,5428.0

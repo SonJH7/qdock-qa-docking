@@ -1,0 +1,10 @@
+{
+  "backend": "dwave_qpu",
+  "backend_params": {
+    "solver": "Advantage2_system1.13;graph_id=01e1ea5685"
+  },
+  "sampler_kwargs": {
+    "num_reads": 1000,
+    "return_embedding": true
+  }
+}

@@ -1,0 +1,3 @@
+ligand,cplex_vars,cplex_terms,cplex_obj,cplex_runtime_sec,qa_best_energy_Zephyr,energy_gap_Zephyr,quality_rate_Zephyr,validity_rate_Zephyr,tts_99_quality_sec_Zephyr,tts_99_success_sec_Zephyr,qa_best_energy_Pegasus,energy_gap_Pegasus,quality_rate_Pegasus,validity_rate_Pegasus,tts_99_quality_sec_Pegasus,tts_99_success_sec_Pegasus
+3nq9,120,4648,-4.0,0.22240996360778809,-1.5,2.5,0.0206649144636572,1.0,93.87187611060334,93.87187611060334,-1.0,3.0,0.0404701742493735,1.0,47.330375167627686,47.330375167627686
+4jsz,120,3948,-3.66,0.11866903305053711,-1.0,2.66,0.000984670464111,1.0,979.5557885540256,979.5557885540256,-1.0,2.66,0.0005361930294906,1.0,344.4469037084345,344.4469037084345

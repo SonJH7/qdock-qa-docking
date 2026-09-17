@@ -1,0 +1,15 @@
+{
+  "backend": "dwave_qpu",
+  "backend_params": {
+    "solver": "Advantage2_system1.10"
+  },
+  "sampler_kwargs": {
+    "num_reads": 1000,
+    "annealing_time": 20,
+    "chain_strength": 1.0,
+    "embedding_parameters": {
+      "threads": 8
+    },
+    "return_embedding": true
+  }
+}

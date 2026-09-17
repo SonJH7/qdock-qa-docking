@@ -1,0 +1,10 @@
+{
+  "ligand": "4jsz",
+  "case_name": "4jsz_Kdist0.500_Kmono1.000",
+  "K_dist": 0.5,
+  "K_mono": 1.0,
+  "edge_cutoff": 1.87,
+  "grid_length": 1.0,
+  "qubo_path": "./BO_Online_v113_b100_q4_n20_x0.1_r10/work/cases/4jsz_Kdist0.500_Kmono1.000/QUBOs/4jsz_ligand.npy",
+  "query_tag": "online_bo_v113_b100_quality_4jsz_n20_x0p1_r10_chain_20260405_025657_s011"
+}

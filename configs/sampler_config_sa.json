@@ -1,0 +1,7 @@
+{
+  "backend": "neal",
+  "sampler_kwargs": {
+    "num_reads": 1000,
+    "seed": 42
+  }
+}

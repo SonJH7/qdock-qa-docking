@@ -1,0 +1,20 @@
+name: qdock-qst
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.23
+  - numpy=1.23.5
+  - scipy=1.13.1
+  - pandas=2.3.3
+  - matplotlib=3.9.4
+  - setuptools=80.9.0
+  - pyyaml
+  - pip
+  - pip:
+      - ProDy==2.4.1
+      - pyqubo==1.5.0
+      - dwave-ocean-sdk==9.0.0
+      - dwave-system==1.33.0
+      - dwave-cloud-client==0.14.0
+      - minorminer==0.2.19
+      - dwave-neal==0.6.0

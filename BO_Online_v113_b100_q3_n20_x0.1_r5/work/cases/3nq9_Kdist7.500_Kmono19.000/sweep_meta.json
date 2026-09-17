@@ -1,0 +1,10 @@
+{
+  "ligand": "3nq9",
+  "case_name": "3nq9_Kdist7.500_Kmono19.000",
+  "K_dist": 7.5,
+  "K_mono": 19.0,
+  "edge_cutoff": 1.87,
+  "grid_length": 1.0,
+  "qubo_path": "./BO_Online_v113_b100_q3_n20_x0.1_r5/work/cases/3nq9_Kdist7.500_Kmono19.000/QUBOs/3nq9_ligand.npy",
+  "query_tag": "online_bo_v113_b100_q3_n20_x0p1_r5_20260401_120636_s049"
+}
