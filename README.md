@@ -47,3 +47,17 @@ The BO comparison tables under `JeongHun/tables/bo_vs_random/` and the
 corresponding Figure 6/7 assets use the same 20-run comparison. The QPU campaign
 manifests and aggregates retain their campaign directory names at the repository
 root. File integrity can be verified with `DATA_SHA256SUMS`.
+
+## Attribution
+
+The FAM-QUBO encoding and ligand/feature preparation build on the
+[QDock implementation by Jinyin Zha](https://github.com/JinyinZha/QDock),
+including its electronegativity table and decoder, released under the MIT
+License and accompanying Zha et al., *Encoding Molecular Docking for Quantum
+Computers* (JCTC 2023, [doi:10.1021/acs.jctc.3c00943](https://doi.org/10.1021/acs.jctc.3c00943)).
+The original copyright and permission notice are preserved in [LICENSE](LICENSE).
+
+The original contributions by Jeong-Hun Son, Seon-Geun Jeong, and Won-Joo
+Hwang, including the BO loop, sweep drivers, and analysis and plotting
+scripts, are also MIT-licensed; see [LICENSE](LICENSE). Third-party code and
+data retain their respective notices and terms.
